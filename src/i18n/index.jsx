@@ -15,9 +15,15 @@ import ptPTMessages from './messages/pt_PT.json';
 import ruMessages from './messages/ru.json';
 import ukMessages from './messages/uk.json';
 import zhCNMessages from './messages/zh_CN.json';
+import trMessages from './messages/tr-tr.json';
+import roMessages from './messages/ro.json';
+import slMessages from './messages/sl.json';
 // no need to import en messages-- they are in the defaultMessage field
 
 const appMessages = {
+   'tr-tr': trMessages,
+  'ro': roMessages,
+  'sl': slMessages,
   ar: arMessages,
   de: deMessages,
   'de-de': deDEMessages,
